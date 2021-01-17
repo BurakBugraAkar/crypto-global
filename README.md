@@ -36,10 +36,10 @@ console.log(name)
 
 console.log(all) 
 
->{
->  name: 'Bitcoin(BTC)',
->  price: '34,943.76',
->  percent: '-7.13',
->  icon: 'https://cdn.discordapp.com/attachments/774285169364172881/800012387742384128/bitcoin.png'
->}
+> {
+>   name: 'Bitcoin(BTC)',
+>   price: '34,943.76',
+>   percent: '-7.13',
+>   icon: 'https://cdn.discordapp.com/attachments/774285169364172881/800012387742384128/bitcoin.png'
+> }
 ```
