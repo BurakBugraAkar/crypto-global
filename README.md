@@ -24,6 +24,7 @@ async function output() {
     console.log(all)
 }
 output()
+```
 
 ```javascript
 /*/
