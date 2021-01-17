@@ -26,7 +26,7 @@ async function output() {
 output()
 ```
 
-```javascript
+```cmd
 console.log(name) 
 > Bitcoin(BTC)
 
