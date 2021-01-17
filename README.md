@@ -25,10 +25,10 @@ async function output() {
 }
 output()
 
-/*/
+```npm
 console.log(name) 
 > Bitcoin(BTC)
-/*/
+```
 
 /*/
 console.log(all) 
