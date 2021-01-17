@@ -4,7 +4,7 @@
 npm install crypto-global
 ```
 
-EN
+EN\n
 A fast and stable module that provides information about crypto currencies.
 
 
