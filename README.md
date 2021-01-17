@@ -1,27 +1,42 @@
 # crypto-global
 
-# EN
-A fast and stable module that provides information about crypto currencies.
 ```shell
 npm install crypto-global
 ```
 
+EN
+A fast and stable module that provides information about crypto currencies.
+
+
 ```javascript
-const modül = require('sozluk-api')
-async function çıktı() {
-let kelime = await modül.tdk('ahır')
-console.log(kelime)
-  }
-çıktı()
+const crypto = require('crypto-global')
+async function output() {
+    unit = "btc"
+    let name = await modül.name(unit)
+    let price = await modül.price(unit)
+    let percent = await modül.percent(unit)
+    let icon = await modül.icon(unit)
+    let all = await modül.all(unit)
+    console.log(name)
+    console.log(price)
+    console.log(percent)
+    console.log(icon)
+    console.log(all)
+}
+output()
 
 /*/
-{
-  anlam: 'Evcil büyükbaş hayvanların barındığı kapalı yer, hayvan damı',
-  lisan: 'Farsça āḫūr',
-  örnek: 'Sağda, duvar kıyısında ahır, arabacı, uşak odaları var.',
-  Yazar: 'Yusuf Atılgan',
-  Atasözü: 'ahıra çekmek'
-}
+console.log(name) 
+> Bitcoin(BTC)
+/*/
 
+/*/
+console.log(all) 
+>{
+>  name: 'Bitcoin(BTC)',
+>  price: '34,943.76',
+>  percent: '-7.13',
+>  icon: 'https://cdn.discordapp.com/attachments/774285169364172881/800012387742384128/bitcoin.png'
+>}
 /*/
 ```
