@@ -28,10 +28,12 @@ output()
 
 ```cmd
 console.log(name) 
+
 > Bitcoin(BTC)
 
 
 console.log(all) 
+
 >{
 >  name: 'Bitcoin(BTC)',
 >  price: '34,943.76',
