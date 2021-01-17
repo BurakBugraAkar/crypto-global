@@ -12,11 +12,11 @@ A fast and stable module that provides information about crypto currencies.
 const crypto = require('crypto-global')
 async function output() {
     unit = "btc"
-    let name = await modül.name(unit)
-    let price = await modül.price(unit)
-    let percent = await modül.percent(unit)
-    let icon = await modül.icon(unit)
-    let all = await modül.all(unit)
+    let name = await crypto.name(unit)
+    let price = await crypto.price(unit)
+    let percent = await crypto.percent(unit)
+    let icon = await crypto.icon(unit)
+    let all = await crypto.all(unit)
     console.log(name)
     console.log(price)
     console.log(percent)
