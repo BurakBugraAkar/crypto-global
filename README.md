@@ -26,6 +26,8 @@ async function output() {
 output()
 ```
 
+Data output
+
 ```cmd
 console.log(name) 
 
