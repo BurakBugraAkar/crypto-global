@@ -27,12 +27,10 @@ output()
 ```
 
 ```javascript
-/*/
 console.log(name) 
 > Bitcoin(BTC)
-/*/
 
-/*/
+
 console.log(all) 
 >{
 >  name: 'Bitcoin(BTC)',
@@ -40,5 +38,4 @@ console.log(all)
 >  percent: '-7.13',
 >  icon: 'https://cdn.discordapp.com/attachments/774285169364172881/800012387742384128/bitcoin.png'
 >}
-/*/
 ```
