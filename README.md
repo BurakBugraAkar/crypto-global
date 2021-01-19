@@ -9,21 +9,31 @@ A fast and stable module that provides information about crypto currencies.
 
 
 ```javascript
-const crypto = require('crypto-global')
+const crypto = require('./crypto.js')
 async function output() {
-    unit = "btc"
+    unit = "bitcoin"
     let name = await crypto.name(unit)
-    let price = await crypto.price(unit)
+    let price = await crypto.try(unit)
+    let vol24 = await crypto.vol24(unit)
+    let lower = await crypto.lower(unit)
+    let higher = await crypto.higher(unit)
     let percent = await crypto.percent(unit)
+    let table = await crypto.table(unit)
     let icon = await crypto.icon(unit)
     let all = await crypto.all(unit)
     console.log(name)
     console.log(price)
+    console.log(vol24)
+    console.log(lower)
+    console.log(higher)
     console.log(percent)
     console.log(icon)
+    console.log(table)
     console.log(all)
+
 }
 output()
+
 ```
 
 Data output
@@ -44,7 +54,13 @@ console.log(all)
 > }
 ```
 
-Untis
+#Units
 ```cmd
-| btc | dot | xrp | ltc | ada | bnb | eos | usdt | link | dash | atom | neo | aave | xmr | snx |
+You can withdraw by typing the name of the crypto money you choose on the coinmarket.com!
+```
+
+#Updates
+```
+-> Some bugs fixed!
+-> Table / Market / Vol24 / Lower / Higher / TRY / USD functions added!
 ```
